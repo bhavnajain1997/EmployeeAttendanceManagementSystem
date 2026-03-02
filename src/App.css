@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+background: linear-gradient(174deg, #953ef3, transparent) !important;
+    height: 100vh;
+
+
+}
+.headerlist li{
+list-style: none;
+}
+.loginsection{
+    padding: 100px 0px;
+}
+.formsection{
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 50px 20px;
+    background-color: white;
+    
+}
+.formsection h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+.formsection input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.sec-title h1{
+    font-size: 30px !important;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 6px 50px !important;
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.attendance-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.attendance-table th, .attendance-table td{
+   border: 1px solid black;
+   padding: 8px;
+}
+#navbarNav li .navList{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+} 
+.navBar{
+    margin: 20px 0px !important;
+}
+#navbarNav li{
+    margin-bottom: 10px !important;
+}
+#navbarNav ul{
+    margin-bottom: 40px;
+}
+.card{
+    background: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+}
