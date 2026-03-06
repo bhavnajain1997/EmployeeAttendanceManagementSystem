@@ -28,8 +28,8 @@ The **Employee Attendance Management System** is a web-based application designe
 
 ---
 # User Login
-# Email :- Bhavna001@gmail.com
-# password:- Bhavna@1234
+Email :- Bhavna001@gmail.com
+password:- Bhavna@1234
 
 # Screenshots
 ## Login Page
@@ -46,7 +46,7 @@ The **Employee Attendance Management System** is a web-based application designe
 
 ## Attendance Report
 [Attendancereport](./Screenshots/Screenshot%202025-11-27%20023757.png)
-
+ 
 ## 🚀 Getting Started
 
 1. Clone the repository  
