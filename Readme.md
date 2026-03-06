@@ -32,19 +32,19 @@ The **Employee Attendance Management System** is a web-based application designe
 # password:- Bhavna@1234
 
 # Screenshots
-# Login Page
+## Login Page
 [Loginpage](./Screenshots/Screenshot%202025-11-27%20022608.png)
 
-# Dashboard
+## Dashboard
 [Dashboard](./Screenshots/Screenshot%202025-11-27%20023010.png)
 
-# Mark Attendance 
+## Mark Attendance 
 [Markattendance](./Screenshots/Screenshot%202025-11-27%20023219.png)
 
-# Employee Profile
+## Employee Profile
 [EmployeeProfile](./Screenshots/Screenshot%202025-11-27%20023511.png)
 
-# Attendance Report
+## Attendance Report
 [Attendancereport](./Screenshots/Screenshot%202025-11-27%20023757.png)
 
 ## 🚀 Getting Started
