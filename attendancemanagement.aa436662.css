@@ -1,0 +1,90 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(174deg, #953ef3, #0000) !important;
+}
+
+.headerlist li {
+  list-style: none;
+}
+
+.loginsection {
+  padding: 100px 0;
+}
+
+.formsection {
+  background-color: #fff;
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.formsection h2 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.formsection input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.sec-title h1 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  line-height: 40px;
+  font-size: 30px !important;
+}
+
+.btn {
+  border: 1px solid #000 !important;
+  border-radius: 0 !important;
+  padding: 6px 50px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.attendance-table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.attendance-table th, .attendance-table td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+#navbarNav li .navList {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navBar {
+  margin: 20px 0 !important;
+}
+
+#navbarNav li {
+  margin-bottom: 10px !important;
+}
+
+#navbarNav ul {
+  margin-bottom: 40px;
+}
+
+.card {
+  background: none !important;
+  box-shadow: 0 0 10px #0003 !important;
+}
+/*# sourceMappingURL=attendancemanagement.aa436662.css.map */
