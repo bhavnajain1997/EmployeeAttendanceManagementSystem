@@ -40,7 +40,11 @@ const Body = () => {
             errorElement : <ErrorPage/>
         }
         
-    ])
+    ],{
+    // GitHub Pages ke sub-folder routing ko handle karne ke liye
+    basename: "/EmployeeAttendanceManagementSystem" 
+})
+    
     return(
         <div>
             <RouterProvider router = {appRouter}/>
