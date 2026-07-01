@@ -17534,18 +17534,21 @@ const Body = ()=>{
                 columnNumber: 28
             }, undefined)
         }
-    ]);
+    ], {
+        // GitHub Pages ke sub-folder routing ko handle karne ke liye
+        basename: "/EmployeeAttendanceManagementSystem"
+    });
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
             router: appRouter
         }, void 0, false, {
             fileName: "src/Components/Body.js",
-            lineNumber: 46,
+            lineNumber: 50,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Body.js",
-        lineNumber: 45,
+        lineNumber: 49,
         columnNumber: 9
     }, undefined);
 };
