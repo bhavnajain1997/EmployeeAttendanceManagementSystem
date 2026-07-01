@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Login from "./Login"
 import EmployeeProfile, {employee} from "./EmployeeProfile"
 import Home from "./Home";
@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 import MarkAttendance from "./MarkAttendance";
 import AttendanceReport from "./AttendanceReport";
 const Body = () => {
-    const appRouter = createBrowserRouter([
+    const appRouter = createHashRouter([
         {
             path : "/",
             element : <Login employeelist = {employee}/>,
@@ -40,10 +40,7 @@ const Body = () => {
             errorElement : <ErrorPage/>
         }
         
-    ],{
-    // GitHub Pages ke sub-folder routing ko handle karne ke liye
-    basename: "/EmployeeAttendanceManagementSystem" 
-})
+    ])
     
     return(
         <div>
